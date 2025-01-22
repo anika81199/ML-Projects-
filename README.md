@@ -1,3 +1,3 @@
-# ML-Projects-
-List of projects:- 
+# List of ML-Projects
+
 - Driver's Drowsiness Detection System
