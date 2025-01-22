@@ -28,3 +28,9 @@ The model architecture consists of the following layers:
 
 The ReLU activation function is used in all layers except the output layer, where the Softmax activation function is applied to produce probabilities for the two classes.
 
+When the driver's eyes are detected as closed, a timer will start counting. If the eyes remain closed for more than 10 seconds, an alarm will activate to alert the driver!
+<img width="627" alt="image" src="https://github.com/user-attachments/assets/aaee4fd4-3a57-4315-9c1d-7f199d80e621" />
+
+The timer will start decreasing once the driver returns to an active state, i.e., when their eyes are open.
+<img width="628" alt="image" src="https://github.com/user-attachments/assets/831d33cb-343a-461d-9de6-50c4cfe909f0" />
+
